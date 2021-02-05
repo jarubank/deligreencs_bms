@@ -1,5 +1,5 @@
 <launch>
-    <node pkg="deligreencs_bms" type="deligreencs_bms_pub.py" name="Deligreen_bms">
+    <node pkg="deligreencs_bms" type="deligreencs_bms.py" name="Deligreen_bms">
         <param name="bms_port" type="string" value="/dev/deligreencs_bms"/>
         <remap from="/battery_state" to="/battery_state"/>
     </node>
