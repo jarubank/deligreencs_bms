@@ -5,7 +5,7 @@ ROS node and publish for Deligreencs Smart BMS
 change name of catkin_ws to your name space
 
      $ cd catkin_ws/src
-     $ git clone https://github.com/IST-DEV20/deligreencs_bms.git
+     $ git clone https://github.com/jarubank/deligreencs_bms.git
      $ cd deligreencs_bms/script
      $ sudo chmod +x * 
      $ cd 
